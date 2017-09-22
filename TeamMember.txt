@@ -3,6 +3,6 @@ Team member:
 Xi Zhang 
 Rafael Nunez (I will write function 2^n)
 Zhiqi Xiong  (I will write function fab(n))
-Yan Chen
+Yan Chen (I will integrate 3 function and write user prompt)
 Chao Shu
   
