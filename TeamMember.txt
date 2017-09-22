@@ -1,7 +1,7 @@
 # CS555_Homework_3
 Team member:
 Xi Zhang
-Rafael Nunez
+Rafael Nunez (I will write function 2^n)
 Zhiqi Xiong
 Yan Chen
 Chao Shu
