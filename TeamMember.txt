@@ -1,8 +1,8 @@
 # CS555_Homework_3
 Team member:
-Xi Zhang (I will write function fab(n))
+Xi Zhang 
 Rafael Nunez (I will write function 2^n)
-Zhiqi Xiong
+Zhiqi Xiong  (I will write function fab(n))
 Yan Chen
 Chao Shu
   
