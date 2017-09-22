@@ -15,19 +15,19 @@ public static void main(String[] args) {
 		System.out.println("*********************************************************************************");
 		String str = scan.nextLine().toUpperCase();
 	if(str.contains("1")){
-		System.out.println("2^n, with input n. For example, when n is 3, the output is 8");
+		System.out.println("Please input the number of 2^n");
 	}else if(str.contains("2")){
-		System.out.println("n!, with input n. For example, 5! = 5*4*3*2*1");
+		System.out.println("Please input the number of n!");
 	}else if(str.contains("3")){
-		System.out.println("fab(n) with input n. fab(n) is the nth number in the Fibonacci sequence, with 1, 1, 2, 3, 5, 8, 13, 21, 34");
-    System.out.println(fab(9));
+		System.out.println("Please input the number of feb(n)");
+		int n = Integer.parseInt(scan.nextLine());
+		System.out.println(fab(n));
 	}else if(str.contains("EXIT")){
 		flag=false;
 	}
 	System.out.println();
 	}while(flag);
 	System.out.println("The program is closed");
-}
 }	
 	//function 3 Fibonacci sequence
 	public static int fab(int n) {
