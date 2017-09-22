@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 
@@ -19,6 +20,7 @@ public static void main(String[] args) {
 		System.out.println("n!, with input n. For example, 5! = 5*4*3*2*1");
 	}else if(str.contains("3")){
 		System.out.println("fab(n) with input n. fab(n) is the nth number in the Fibonacci sequence, with 1, 1, 2, 3, 5, 8, 13, 21, 34");
+    System.out.println(fab(9));
 	}else if(str.contains("EXIT")){
 		flag=false;
 	}
@@ -26,4 +28,13 @@ public static void main(String[] args) {
 	}while(flag);
 	System.out.println("The program is closed");
 }
+}	
+	//function 3 Fibonacci sequence
+	public static int fab(int n) {
+		if (n == 1 || n == 2) {
+			return 1;
+		} else {
+			return fab(n - 1) + fab(n - 2); 
+		}
+	}
 }
