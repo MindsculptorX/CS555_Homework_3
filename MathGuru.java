@@ -21,9 +21,11 @@ public static void main(String[] args) {
 	}else if(str.contains("3")){
 		System.out.println("Please input the value of fab(n)");
 		int n = Integer.parseInt(scan.nextLine());
-		if(judge(n)){
-		System.out.println("The last number of fab("+n+") is "+fab(n));
+		while(!judge(n)){
+			System.out.println("Please input the value of fab(n)");
+			n = Integer.parseInt(scan.nextLine());
 		}
+		System.out.println("The last number of fab("+n+") is "+fab(n));
 	}
 	System.out.println();
 	System.out.println("Please input yes if you want to try again, or input no to leave");
