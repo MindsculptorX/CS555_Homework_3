@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 
 
@@ -44,20 +45,8 @@ public static void main(String[] args) {
 }
 
 	//function 1: raise 2 to power
-	public static int power(n) {
-		int base = 2;
-		int power = n;
-		int result = 1;
-
-		if (power > 1) {
-			result = base;
-			for (int i = power; i > 1; i--) {
-				result = result * base;
-			}
-			return result;
-		} else {
-			return base;
-		}
+	public static double power(double n) {
+		return Math.pow(2, n);
 	}
 
 	//function 3 Fibonacci sequence
@@ -80,3 +69,4 @@ public static void main(String[] args) {
 
 
 //this line is for trying the new branch and merge.--Xi Zhang
+
