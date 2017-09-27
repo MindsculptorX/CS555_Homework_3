@@ -25,6 +25,12 @@ public static void main(String[] args) {
 		System.out.println("2 raised to the power of ("+n+") is " + power(n));
 	}else if(str.contains("2")){
 		System.out.println("Please input the value of n!");
+		int n = Integer.parseInt(scan.nextLine());
+		while (!judge(n)) {
+			System.out.println("Please input a value to calculate it's factorial.");
+			n = Integer.parseInt(scan.nextLine());
+		}
+		System.out.println(n + " factorial equals: "+ factorial(n));
 	}else if(str.contains("3")){
 		System.out.println("Please input the value of fab(n)");
 		int n = Integer.parseInt(scan.nextLine());
@@ -49,6 +55,17 @@ public static void main(String[] args) {
 		return Math.pow(2, n);
 	}
 
+	//function 2: factorial
+	public static int factorial(int n) {
+		int factor = n;
+		int result = 1;
+
+		for (int i = factor; i > 0; i--) {
+			result = result * i;
+		}
+		return result;
+	}
+
 	//function 3 Fibonacci sequence
 	public static int fab(int n) {
 		if (n == 1 || n == 2) {
@@ -69,4 +86,3 @@ public static void main(String[] args) {
 
 
 //this line is for trying the new branch and merge.--Xi Zhang
-
