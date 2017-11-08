@@ -88,3 +88,8 @@ public class MathGuru {
 	}
 
 }
+
+
+//This line is test for branch merge
+//this line is for trying the new branch and merge.--Xi Zhang
+
